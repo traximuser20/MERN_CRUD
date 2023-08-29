@@ -57,7 +57,7 @@ const Home = ({ props }) => {
       <ToastContainer />
       {users ? (
         <>
-          <div className="items-center justify-center min-h-screen from-gray-900 via-gray-900 to-gray-900 bg-gradient-to-br">
+          <div className="items-center justify-center min-h-screen from-gray-900 via-gray-900 to-gray-800 bg-gradient-to-br">
             <div className="mx-8 grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {/* <CardSkeleton /> */}
               {users.map((user, index) => (
@@ -72,7 +72,7 @@ const Home = ({ props }) => {
                             <img
                               src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png"
                               alt=""
-                              className="dark:shadow-xl border-white dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]"
+                              className="dark:shadow-xl border-white dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 lg:-ml-[71px] max-w-[150px]"
                             />
                           </div>
                         </div>
